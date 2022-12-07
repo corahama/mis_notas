@@ -1,0 +1,13 @@
+{
+    // "python.defaultInterpreterPath": "~/.virtualenvs/fastapi/bin/python",
+    "python.pipenvPath": "venv/bin/activate",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111, no-name-in-module, relative-beyond-top-level",
+        "--max-line-length=105",
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--disable=E302",
+    ],
+}
